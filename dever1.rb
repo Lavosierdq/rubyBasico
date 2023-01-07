@@ -30,6 +30,7 @@ nome3 = "Adriano"
 puts "o nome da minha irma é #{nome} e o nome da minha sobrinha é #{nome2} e o
 nome do meu cunhado é #{nome3}"
 puts nome.length + nome2.length + nome3.length
-nome4 = 'maria' nome5 = 'jose'
-puts maria
-puts jose
+nome4 = 'maria'
+nome5 = 'jose'
+puts nome4
+puts nome5
