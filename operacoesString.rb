@@ -54,3 +54,19 @@ p menssagem3.downcase
 p menssagem3.capitalize
 # captilize. upcase,downcase, split,strip,gsub, p, print, puts,length,%05 %variavel
 p " o numero %010d" %numero
+
+puts ["la","vo","si","er"]
+p "---" * 10
+p ["A","pa","re","ci","da"]
+
+nome3 = "Aparecida"
+p " o nome da pessoa é #{nome3}"
+p nome3 [0]
+p nome3 [0,6]
+p nome3.gsub("A","E")
+p nome3.downcase
+p nome3.upcase
+p nome3.capitalize
+p nome3.split("e")
+p nome3 [nome3.length-2]
+p nome3 [-3]
