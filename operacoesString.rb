@@ -70,3 +70,5 @@ p nome3.capitalize
 p nome3.split("e")
 p nome3 [nome3.length-2]
 p nome3 [-3]
+nome = "GabrielA"
+p nome[3]
