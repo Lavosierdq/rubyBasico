@@ -45,4 +45,17 @@ end
 hash = {nome:"lavosier",idade:34}
 hash.each do |chave,valor|
   puts "minha chave #{chave} com o valor  #{valor}"
-end 
+end
+puts '---'*10
+# util é o inverso de while
+
+valor = 0
+until valor == 10 do 
+  print "#{valor}"
+  valor +=1
+  if valor == 9
+    puts "#{valor}"
+    puts '---'*10
+    break
+  end
+end
