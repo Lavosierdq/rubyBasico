@@ -33,6 +33,7 @@ loop do
 end
 
 puts "o numero maior #{ maior} e o menor numero #{menor}"
+#não entendi o porque não funcionou e depois funcionou.... analizar melhor
 
 
 
