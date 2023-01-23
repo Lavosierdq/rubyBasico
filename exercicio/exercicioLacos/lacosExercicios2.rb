@@ -1,6 +1,4 @@
-=begin 3. Ler um conjunto de números reais, armazenando-o em vetor e calcular o quadrado das
-componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos têm
-5 elementos cada. Imprimir todos os conjuntos.
+=begin 3. Ler um conjunto de números reais, armazenando-o em vetor e calcular o quadrado das componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos têm 5 elementos cada. Imprimir todos os conjuntos.
 =end
 
 laco =  (0..5)
