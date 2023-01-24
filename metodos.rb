@@ -23,7 +23,7 @@ puts soma3 (10)
 
 puts '---'*10
 
-def soma4(valor1:,valor2:)
+def soma4(valor1:,valor2:) # trocando a posicao da referencia
   return valor1 + valor2
 end
 
