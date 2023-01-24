@@ -10,13 +10,32 @@ for i in (0..9) do
   vetor << vet
 end
 
-
+j=0
+n=0
 for n in (0..9) do
-
-  while j < n+1
-
-  j+=1
+  for j in (n+1..9)
+    if vetor[j] == vetor[n]
+      puts " os numeros #{vetor[n]} sao iguais"
+    end
   end
+end
 
+
+#outro exemplo do mesmo código utilizando metodo each_with_index
+
+
+vetor2 = []
+
+for i in (0..9) do
+  puts 'outro exemplo de codigo'
+  vet2 = gets.to_i
+  vetor2 << vet2
+end
+
+
+vetor2.each_with_index do |num,index|
+   if vetor2.count(num) > 1
+     puts "os numeros #{num} sao iguais"
+   end
 end
 
