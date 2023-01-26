@@ -1,11 +1,11 @@
 =begin
-    escreva um metetodo recursivo e estatico que calcule o N-ésimo numero termo da sequencia de fibonnaci
+    escreva um metetodo recursivo e estatico somatorio recursivo
 =end
 
-puts 'digite o numero de fibonnaci'
-fibonnaci = gets.to_i
+puts 'digite um  numero'
+numero = gets.to_i
 
-puts "o numero de fibonacci #{calculo(fibonnaci)}"
+puts "o numero é : #{calculo(numero)}"
 
 BEGIN{
 
