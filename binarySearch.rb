@@ -5,7 +5,7 @@ output:-1
 Explanation :Element x is not present in arr[]
 =end
 
-def binario(arr = [], x)
+def binario(arr, x)
 
   vet = [] << arr
   indiceMedia = arr.length/2
@@ -40,6 +40,6 @@ num = gets.to_i
 
 vetor = [10,20,80,30,60,50,110,130,170]
 
-puts binario (vetor = [],num)
+puts binario(vetor,num)
 
 
