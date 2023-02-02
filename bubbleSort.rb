@@ -13,7 +13,7 @@ BEGIN {
     while i < (n-1)
 
       while j < (i-n-1)
-
+        
         if arr[j] > arr[j+1]
           aux = arr[j]
           arr[j] = arr[j+1]
