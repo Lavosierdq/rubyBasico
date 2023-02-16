@@ -36,5 +36,14 @@ System.out.println("Após a união de 0 e 2: " + Arrays.toString(uf.parent)); //
 System.out.println("Encontrar o conjunto de 0: " + uf.find(0)); // 2
 System.out.println("Encontrar o conjunto de 1: " + uf.find(1)); // 1
 
+ public void union(int i, int j) {
+        int parent_i = find(i);
+        int parent_j = find(j);
+        if (parent_i != parent_j) {
+            parent[parent_i] = parent_j;
+        }
+    }
+}
+
 #implementando em ruby.
 
