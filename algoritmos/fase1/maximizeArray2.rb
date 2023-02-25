@@ -9,10 +9,27 @@ def maximumArray(vet,k,n)
 
  #fazendo a quantidade de interações 
   i = 0
-  k.each do |i|
-    return puts 'devolve o laco de i'
-  end
+  j = 0
+  while i < k
+    menor = 98541215441 
+    index = -1
 
+    while j < n
+      if vetor[j] < menor
+        menor = vetor[j]
+        index = j
+      end
+      j=+1
+    end
+
+    if menor == 0
+      break
+    end
+
+    vet[index] = -vet[index] 
+    i+=1
+  end
+  
 end
 
 
@@ -22,4 +39,3 @@ interacoes = 3
 n = array.length-1
 puts n
 puts maximumArray(array,k,n)
-
