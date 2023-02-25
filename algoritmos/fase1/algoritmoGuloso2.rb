@@ -1,4 +1,5 @@
-=begin exercicio de algoritmo guloso 
+=begin exercicio de algoritmo gulosos
+       https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/
 =end
 
 inicio = [ 1,3,0,5,8,5]

@@ -1,5 +1,7 @@
-#Algoritimo de Minimun Sum para encontrar o menor valor de um array
-
+=begin
+https://www.geeksforgeeks.org/minimum-sum-choosing-minimum-pairs-array/
+Algoritimo de Minimun Sum para encontrar o menor valor de um array
+=end
 
 vet = [3,6,2,8,7,5]
 n = vet.length-1
