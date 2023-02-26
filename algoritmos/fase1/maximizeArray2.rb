@@ -20,10 +20,8 @@ def maximumArray(vet,k,n)
       if vet[j] < menor
         menor = vet[j]
         index = j
-        #return " o valor de menor #{menor}"
-      end
-
-      j+=1 
+        return " o valor de index #{index}"
+      end  
       #return " o valor de j #{j} e o valor de n: #{n}"
     end
 
@@ -33,7 +31,7 @@ def maximumArray(vet,k,n)
 
     vet[index] = -vet[index] 
     i+=1
-    return " o valor de i #{i}"
+    #return " o valor de i #{i}"
   end
 
   i = 0
