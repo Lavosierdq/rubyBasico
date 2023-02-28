@@ -4,22 +4,27 @@ https://www.geeksforgeeks.org/minimum-product-subset-array/
 =end
 
 vet = [-1,-1,-2,4,3]
-puts miniumProduct(vet)
-
-BEGIN {
+p miniumProduct(vet)
+BEGIN{
  def miniumProduct(vet)
 
   i = 0
   j = 0
+  numNegativo = 0
+  numZero = 0
+  numPositivo = 0
+
   for i in vet.each do 
+
     if i < 0
-      numeroNegativo+=1
+      numNegativo += 1
+    elsif i == 0
+      numZero+=1
     else
-      numeroPositivo+=1
+      numPositivo+=1
+    end
   end
-
-  return p "o valor de #{j}"
+  return numNegativo
 end
+ 
 }
-
-
