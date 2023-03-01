@@ -14,3 +14,14 @@ puts "8 - #{h.class}"
 puts "9 - #{:symbol.class}"
 puts "10- #{[].class}"
 puts "11- #{(1..8).class}"
+
+#variavel simples
+a = 1
+#variavel de instancia
+@a= 2
+#variavel de classe
+@@= 3 
+#variavel global
+$a= 4
+#variavel constante
+A = 5
