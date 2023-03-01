@@ -23,8 +23,10 @@ BEGIN{
     else
       numPositivo+=1
     end
-  end
-  return numNegativo
-end
- 
+  end 
+end 
 }
+
+
+if numVet = 1
+  return  0
