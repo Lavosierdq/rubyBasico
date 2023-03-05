@@ -4,12 +4,12 @@ class Carro  #criação de classe
     return 250
   end
 
-  def adiciona_marca(marca)
+  def adiciona_marca(marca) #semelhante ao metodo set
     @marca = marca
   end
 
   def marca
-    return @marca
+    return @marca # semelhante ao método get
   end
 
   def adiciona_cor (cor)
@@ -22,8 +22,8 @@ class Carro  #criação de classe
 
 end
 carro = Carro.new
-carro.adiciona_marca ("ford")
+carro.adiciona_marca ("ford") #seta valor dentro do metodo set
 carro.adiciona_cor ("verde")
 puts carro.cor
-puts carro.marca
+puts carro.marca #busca valor do metodo get
 puts carro.velocidade_maxima

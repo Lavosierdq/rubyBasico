@@ -7,4 +7,5 @@ class Teste
   nova_pessoa.idade  = 41
 
   puts nova_pessoa.nome
+  puts nova_pessoa.idade
 end
