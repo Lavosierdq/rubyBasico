@@ -4,7 +4,7 @@ https://www.geeksforgeeks.org/minimum-product-subset-array/
 =end
 
 vet = [-1,-1,-2,4,3]
-n = vet.length
+n = vet.length-1
 p miniProduct(n,vet)
 
 
@@ -19,7 +19,7 @@ BEGIN{
     vetNegativo = []
     vetPositivo = []
 
-    if ( n == 1)
+    if ( n == 0)
       return vet[0]
     end
 
@@ -27,7 +27,7 @@ BEGIN{
 
       if vet[i] < 0
         vetNegativo[i] = vet[i]
-        numNegativo  = numNegativo + 1
+        numNegativo+=1
       elsif vet[i] == 0
         numZero += 1
       else
@@ -35,12 +35,13 @@ BEGIN{
       end
       i+=1
     end
+
     i = 0
     j = 0
     menorPositivo = []
     maior = 999999999999999999
 
-    while i < vet.length
+    while i < vet.length - 1 
       if  vet[i] > 0
         if vet[i] < maior
           maior = vet[i]
@@ -49,7 +50,8 @@ BEGIN{
       end
       i+=1
     end
-    return puts " o valor menorPositivo #{menorPositivo[j]}"
+
+    i = 0
 
     maiorNegativo = -999999999999999999 
     while i < vetNegativo.length-1
@@ -61,21 +63,24 @@ BEGIN{
 
     i = 0
     j = 0
-    somaVet = 0
     resultado = 0
+    produtoVet = 1
+    while i < vet.length
 
+      produtoVet*=vet[i]
+      i+=1
+
+    end
+    return " o valor de produto : #{produtoVet}"
+    
     if numNegativo%2 == 0 && numZero == 0
-      while i < vetNegativo.length-1
-        somaVet+=vet[i]
-        i+=1
-      end 
-      resultado = somaVet/maiorNegativo 
+     # return  resultado = somaVet/maiorNegativo 
     elsif numNegativo%2 != 0 && numZero == 0
-      somaVet
+     #return somaVet
     elsif numPositivo > 0 && numZero > 0
-      return 0
+     # return 0 
     else
-      
+      #return menorPOsitivo
     end
 
   end 
