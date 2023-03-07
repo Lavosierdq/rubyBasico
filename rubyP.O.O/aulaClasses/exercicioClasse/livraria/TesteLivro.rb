@@ -11,5 +11,6 @@ class TesteLivro
   puts livro.classificacao
   puts livro.nome
   puts livro.data
+  puts livro.exibirLivro
 
 end
