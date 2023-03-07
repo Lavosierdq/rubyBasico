@@ -19,7 +19,7 @@ BEGIN{
     vetNegativo = []
     vetPositivo = []
 
-    if ( n == 0)
+    if ( n == 1)
       return vet[0]
     end
 
@@ -71,16 +71,16 @@ BEGIN{
       i+=1
 
     end
-    return " o valor de produto : #{produtoVet}"
+    #return " o valor de produto : #{produtoVet}"
     
     if numNegativo%2 == 0 && numZero == 0
-     # return  resultado = somaVet/maiorNegativo 
+      resultado = produtoVet/maiorNegativo 
     elsif numNegativo%2 != 0 && numZero == 0
-     #return somaVet
+      produtoVet 
     elsif numPositivo > 0 && numZero > 0
-     # return 0 
+      0
     else
-      #return menorPOsitivo
+      menorPositivo
     end
 
   end 
