@@ -1,4 +1,4 @@
-require_relative 'Lampada'
+require '../mercado/Lampada.rb'
 
 class Mercado
 
@@ -10,6 +10,7 @@ class Mercado
   puts lampada.cor
   puts lampada.tipo
   puts lampada.volts
+  puts lampada.ligarLampada(false)
 
 end
 
