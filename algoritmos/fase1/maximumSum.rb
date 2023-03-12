@@ -10,7 +10,10 @@ stack  = [3,10]
 stack2 = [4,5]
 stack3 = [2,1]
 
-def maximuSum (vet1, vet2,vet3)
+puts maximumSum(stack,stack2,stack3)
+
+BEGIN {
+def maximumSum (vet1, vet2,vet3)
 
   somaStack = 0
   somaStack2 = 0
@@ -20,35 +23,39 @@ def maximuSum (vet1, vet2,vet3)
   end
 
   i = 0
-  for i in stack2.each do
+  for i in vet2.each do
     somaStack2 += i 
   end
 
   i = 0
-  for i in stack3.each do
+  for i in vet3.each do
     somaStack3 += i 
   end
-
+  j = 0
+  k = 0
+  l = 0
   while 1
 
     if somaStack == somaStack2 and somaStack == somaStack3
-       return  somaStack
-       break
+      return  somaStack
+      break
     end
 
     if somaStack >= somaStack2 && somaStack >= somaStack3 
-          somaStack -= vet1[j+=1]
+      somaStack -= vet1[j]
+      j+=1
     end
 
     if somaStack2 >= somaStack && somaStack2 >= somaStack3
-        somaStack2 -=vet2 [k+=1]
+      somaStack2 -=vet2 [k]
+      k+=1
     end
 
     if somaStack3 >= somaStack && somaStack3 >= somaStack2
-      somaStack3 -= vet3[l+=1]
+      somaStack3 -= vet3[l]
+      l+=1
     end
 
   end
 end
-
-puts "#{somaStack} #{somaStack2} #{somaStack3}"
+}
