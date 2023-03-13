@@ -1,12 +1,9 @@
 class Carro
-attr_accessor  :marca,:modelo,:cor,:ano 
+attr_accessor :marca,:modelo,:cor,:ano 
 
-  def initialize #instanciando contrutor na classe
-    puts 'instanciando carro'
+  def initialize (marca) #instanciando contrutor na classej
+    @marca  = marca
   end
 
-  def initialize(marca_)
-    @marca = marca_
-  end
-  
+
 end
