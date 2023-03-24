@@ -8,7 +8,7 @@ class ContaBancaria
     if saldo > valor
       p 'fazer transferencia'
       debitar(valor)
-      outra_conta.depositar
+      outra_conta.depositar(valor)
     else
       p ' não fazer transferencia'
     end
@@ -20,7 +20,13 @@ class ContaBancaria
 
   private
 
-  def debitar(valor)
+  def debitar(_valor_para_debitar)
     @valor -= valor
+  end
+
+  protected
+
+  def depositar(_valor_para_depositar)
+    @valor += valor
   end
 end
