@@ -1,5 +1,5 @@
 # arquivo main para executar
-require '../solucaoPratica/contaBancaria'
+require_relative 'ContaBancaria'
 
 conta_cadu = ContaBancaria.new('cadu', 100)
 conta_pessoa2 = ContaBancaria.new('pessoa2', 200)
