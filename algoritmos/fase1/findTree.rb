@@ -26,7 +26,24 @@ puts vetor
     i += 1
    end
 puts "*****" * 10
-puts vetor
+puts vetor 
+puts "*****" * 10
+
+
+i = 0
+j = 0
+while n > i
+  print "#{vetor[n]} "
+  if j == 2
+    break
+  end
+  j+=1
+  n-=1
+end
+puts " "
+
+
+
 
 
  
