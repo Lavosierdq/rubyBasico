@@ -3,12 +3,13 @@
 # Find the largest three distinct elements in an array
 
 vetor = [10, 4, 3, 50, 23, 90]
-n = vetor.length(-1)
+n = vetor.length - 1 
 i = 0
 j = 0
 maior = 0
 aux = 0
-BEGIN{
+puts vetor
+
    while i < n
     j = 0  
     while j < i + 1
@@ -23,6 +24,10 @@ BEGIN{
 
     end
     i += 1
-  end
+   end
+puts "*****" * 10
+puts vetor
 
-}
+
+ 
+
