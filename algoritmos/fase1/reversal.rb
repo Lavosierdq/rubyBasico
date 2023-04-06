@@ -4,20 +4,20 @@
 
 vetor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 p vetor
+p last = vetor[vetor.length-2]
 n = vetor.length - 1
-k = 0 
+k = 3 
 aux = 0
 i = 0
-while i < n
-  k = 0
-  while k < 3
-    aux = vetor[i]
-    vetor[i] = vetor[n]
-    vetor[n] = aux 
-    k+=1
-  end
-  i+=1
-  n-=1
-end
 
-p vetor 
+while i < k
+  aux = vetor[vetor.length-1]
+  j = n
+  while j > 0
+    vetor[j] = vetor[j-1]
+    j-=1
+  end
+  vetor[0] = aux
+  i+=1
+  
+end
