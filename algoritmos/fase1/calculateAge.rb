@@ -2,17 +2,14 @@
 # https://www.geeksforgeeks.org/program-calculate-age/
 # Programa para calcular a idade
 
-dataNascimento = '07/09/1996'
+dataAniversario= '07/09/1996'
 dataAtual = '12/07/2017'
+diaA = dataAniversario.split('/').slice(0)
+mesA = dataAniversario.split('/').slice(1)
+anoA = dataAniversario.split('/').slice(2)
 
-dataNascimentoAtt = dataNascimento.split('/')
-dataAtualAtt = dataAtual.split('/')
-p dataAtualAtt
-p dataNascimentoAtt
-puts dataNascimentoAtt 
+diaAtual = dataAtual.split('/').slice(0)
+mesAtual = dataAtual.split('/').slice(1)
+anoAtual = dataAtual.split('/').slice(2)
 
-
-if dataNascimentoAtt[0].to_i < dataAtualAtt[0].to_i
-  puts " data nascimento é menor"
-end
  
