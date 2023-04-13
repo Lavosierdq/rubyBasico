@@ -14,9 +14,20 @@ anoAtual = dataAtual.split('/').slice(2)
 
 numMes = [31, 28, 31, 30, 31, 30, 31,31, 30, 31, 30, 31]
 
-if mesNascimento > mesAtual
+if diaNascimento > diaAtual
     mesAtual  =  mesAtual - 1
     diaAtual = diaAtual + numMes[mesNascimento - 1]
 end
+
+if mesNascimento > mesAtual
+  anoAtual  = anoAtual-1 
+  mesAtual  = mesAtual + 12
+end
+
+calcularData = diaAtual  - diaNascimento
+calcularMes = mesAtual  - mesNascimento
+calcularAno = anoAtual - anoNascimento
+
+
 
 
