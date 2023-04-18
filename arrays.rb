@@ -1,4 +1,4 @@
-# declaração de arrays
+# 
 lista = [10,20.3,"lavo",true]
 p lista 
 p lista[3] #printando o conteudo da posição 3 do array.
