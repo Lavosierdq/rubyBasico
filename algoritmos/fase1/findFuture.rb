@@ -7,30 +7,49 @@
 
 dataArray = ["22/4/1233","1/3/633","23/5/56645","4/12/233"]
 queryArray = ["23/03/4345","12/03/2"]
-#puts "o valor de data array #{dataArray[0]}"
 arrayData = dataArray[0].split("/")
-#puts arrayData[2]
 n = dataArray.length-1
-i = 1
+i = 0
 j = 0
 dataTrocar = 0
 
 while i <= n do
-  while j < i
-    puts "o valor de i #{i}"
+  
+  j = 0
+  while j < i+1
     data = dataArray[i].split("/")
-    dataAno = data[2]
+    dataAno = data[2].to_i
     dataAnoAnterior = dataArray[j].split("/")
-    dataAnoAnteriorLista = dataAnoAnterior[2]
-    puts dataAno
-    puts dataAnoAnteriorLista
+    dataAnoAnteriorLista = dataAnoAnterior[2].to_i
+    puts "o valor de data ano #{dataAno}"
+    puts "o valor de dataAnoLista #{dataAnoAnteriorLista}"
+
     if dataAnoAnteriorLista > dataAno
       dataTrocar = dataArray[j]
+      puts "o valor de dataTrocar #{dataTrocar}"
+      dataArray[j] = dataArray[i]
+      puts "o valor de dataArray #{dataArray[j]}"
+      dataArray[i] = dataTrocar
+      puts "o valor de dataArray #{dataArray[i]}"
     end
     j = j+1
   end
   i = i+1
 end
+puts "o valor da variavel dataArray #{dataArray}" 
 
-puts " o array de data organizado #{dataTrocar}"
+i = 0
+j = 0
 
+while i <= n
+  j = 0
+  while j < i
+    data = dataArray[i].split("/")
+    dataAno = data[2].to_i
+    queryData = queryArray[i].split("/")
+    queryAno = queryData[2].to_i
+
+    if queryAno < dataAno
+    end
+  end
+end
