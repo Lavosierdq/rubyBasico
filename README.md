@@ -8,16 +8,16 @@
 
 
 
-- [01 - Introdução] (https://github.com/Lavosierdq/rubyBasico/issues/38)
-- [02 - Instalando o Ruby]
-- [03 - Variáveis e data types]
-- [04 - Condicionais]
-- [05 - Tratamento de Strings]
-- [06 - Operadores Lógicos]
-- [07 - Looping(laço)]
-- [08 - Hash]
-- [09 - Funções]
-- [10 - Funções Recursivas]
+- [01 - Introdução](https://github.com/Lavosierdq/rubyBasico/issues/38)
+- [02 - Instalando o Ruby](https://github.com/Lavosierdq/rubyBasico/issues/39)
+- [03 - Variáveis e data types](https://github.com/Lavosierdq/rubyBasico/issues/40)
+- [04 - Condicionais](https://github.com/Lavosierdq/rubyBasico/issues/41)
+- [05 - Tratamento de Strings](https://github.com/Lavosierdq/rubyBasico/issues/42)
+- [06 - Operadores Lógicos](https://github.com/Lavosierdq/rubyBasico/issues/43)
+- [07 - Looping(laço)](https://github.com/Lavosierdq/rubyBasico/issues/44)
+- [08 - Hash](https://github.com/Lavosierdq/rubyBasico/issues/45)
+- [09 - Funções](https://github.com/Lavosierdq/rubyBasico/issues/46)
+- [10 - Funções Recursivas](https://github.com/Lavosierdq/rubyBasico/issues/47)
 - [11 -POO - Instância e Construtor]
 - [12 - POO - Accessors]
 - [13 - POO - Herança]
