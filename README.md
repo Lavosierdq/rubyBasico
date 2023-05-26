@@ -8,7 +8,7 @@
 
 
 
-- [01 - Introdução]
+- [01 - Introdução] (https://github.com/Lavosierdq/rubyBasico/issues/38)
 - [02 - Instalando o Ruby]
 - [03 - Variáveis e data types]
 - [04 - Condicionais]
