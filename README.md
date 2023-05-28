@@ -28,16 +28,16 @@
 - [18 - Metaprogramming Módulo](https://github.com/Lavosierdq/rubyBasico/issues/55)
 - [19 - Metaprogramming - Dinâmicos](https://github.com/Lavosierdq/rubyBasico/issues/56)
 - [20 - Metaprogramming - Eval para classes e instâncias](https://github.com/Lavosierdq/rubyBasico/issues/57)
-- [21 - Metaprogramming - Classes e métodos dinâmicos]
-- [22 - Metaprogramming - Alias para métodos e atributos]
-- [23 - Metaprogramming - Hooks]
-- [24 - Metaprogramming - Missings]
-- [25 - Instalando o Ruby on Rails]
-- [26 - Ruby on Rails - Generators]
-- [27 - Ruby on Rails - Routes]
-- [28 - Ruby on Rails - Partials]
-- [29 - Ruby on Rails - Migrations]
-- [30 - Ruby on Rails - Forms]
+- [21 - Metaprogramming - Classes e métodos dinâmicos](https://github.com/Lavosierdq/rubyBasico/issues/58)
+- [22 - Metaprogramming - Alias para métodos e atributos](https://github.com/Lavosierdq/rubyBasico/issues/59)
+- [23 - Metaprogramming - Hooks](https://github.com/Lavosierdq/rubyBasico/issues/60)
+- [24 - Metaprogramming - Missings](https://github.com/Lavosierdq/rubyBasico/issues/61)
+- [25 - Instalando o Ruby on Rails](https://github.com/Lavosierdq/rubyBasico/issues/62)
+- [26 - Ruby on Rails - Generators](https://github.com/Lavosierdq/rubyBasico/issues/63)
+- [27 - Ruby on Rails - Routes](https://github.com/Lavosierdq/rubyBasico/issues/64)
+- [28 - Ruby on Rails - Partials](https://github.com/Lavosierdq/rubyBasico/issues/65)
+- [29 - Ruby on Rails - Migrations](https://github.com/Lavosierdq/rubyBasico/issues/66)
+- [30 - Ruby on Rails - Forms](https://github.com/Lavosierdq/rubyBasico/issues/67)
 - [31 - Ruby on Rails - Initializers]
 - [32 - Ruby on Rails - Helpers]
 - [33 - Ruby on Rails - Arquivos estáticos e dinâmicos]
