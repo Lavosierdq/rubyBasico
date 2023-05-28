@@ -18,16 +18,16 @@
 - [08 - Hash](https://github.com/Lavosierdq/rubyBasico/issues/45)
 - [09 - Funções](https://github.com/Lavosierdq/rubyBasico/issues/46)
 - [10 - Funções Recursivas](https://github.com/Lavosierdq/rubyBasico/issues/47)
-- [11 -POO - Instância e Construtor]
-- [12 - POO - Accessors]
-- [13 - POO - Herança]
-- [14 - POO - Modificadores de Acesso (public, private e protected)]
-- [15 - POO - Polimorfismo e Overload]
-- [16 - POO - Interface, Abstração e Singleton]
-- [17 - Metaprogramming - Runtime]
-- [18 - Metaprogramming Módulo]
-- [19 - Metaprogramming - Dinâmicos]
-- [20 - Metaprogramming - Eval para classes e instâncias]
+- [11 -POO - Instância e Construtor](https://github.com/Lavosierdq/rubyBasico/issues/48)
+- [12 - POO - Accessors](https://github.com/Lavosierdq/rubyBasico/issues/49)
+- [13 - POO - Herança](https://github.com/Lavosierdq/rubyBasico/issues/50)
+- [14 - POO - Modificadores de Acesso (public, private e protected)](https://github.com/Lavosierdq/rubyBasico/issues/51)
+- [15 - POO - Polimorfismo e Overload](https://github.com/Lavosierdq/rubyBasico/issues/52)
+- [16 - POO - Interface, Abstração e Singleton](https://github.com/Lavosierdq/rubyBasico/issues/53)
+- [17 - Metaprogramming - Runtime](https://github.com/Lavosierdq/rubyBasico/issues/54)
+- [18 - Metaprogramming Módulo](https://github.com/Lavosierdq/rubyBasico/issues/55)
+- [19 - Metaprogramming - Dinâmicos](https://github.com/Lavosierdq/rubyBasico/issues/56)
+- [20 - Metaprogramming - Eval para classes e instâncias](https://github.com/Lavosierdq/rubyBasico/issues/57)
 - [21 - Metaprogramming - Classes e métodos dinâmicos]
 - [22 - Metaprogramming - Alias para métodos e atributos]
 - [23 - Metaprogramming - Hooks]
