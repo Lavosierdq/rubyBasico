@@ -38,9 +38,9 @@
 - [28 - Ruby on Rails - Partials](https://github.com/Lavosierdq/rubyBasico/issues/65)
 - [29 - Ruby on Rails - Migrations](https://github.com/Lavosierdq/rubyBasico/issues/66)
 - [30 - Ruby on Rails - Forms](https://github.com/Lavosierdq/rubyBasico/issues/67)
-- [31 - Ruby on Rails - Initializers]
-- [32 - Ruby on Rails - Helpers]
-- [33 - Ruby on Rails - Arquivos estáticos e dinâmicos]
-- [34 - Ruby on Rails - Rake]
-- [35 - Ruby on Rails - Padrão de métodos]
-- [36 - Ruby on Rails - Render]
+- [31 - Ruby on Rails - Initializers](https://github.com/Lavosierdq/rubyBasico/issues/68)
+- [32 - Ruby on Rails - Helpers](https://github.com/Lavosierdq/rubyBasico/issues/69)
+- [33 - Ruby on Rails - Arquivos estáticos e dinâmicos](https://github.com/Lavosierdq/rubyBasico/issues/70)
+- [34 - Ruby on Rails - Rake](https://github.com/Lavosierdq/rubyBasico/issues/71)
+- [35 - Ruby on Rails - Padrão de métodos](https://github.com/Lavosierdq/rubyBasico/issues/72)
+- [36 - Ruby on Rails - Render](https://github.com/Lavosierdq/rubyBasico/issues/73)
