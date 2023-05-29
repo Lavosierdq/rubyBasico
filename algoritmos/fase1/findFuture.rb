@@ -42,20 +42,26 @@ end
 i = 0
 j = 0
 
-while i <= n
-  while j < i
-    puts " o valor de queryArray #{queryArray[j]}"
-    data = dataArray[i].split("/")
+while j <= queryArray.length-1
+  i = 0
+  while i <= n
+    data = dataArray[i].split('/')
+    #puts " o valor de data Array #{dataArray[i]}"
     dataAno = data[2].to_i
-    queryData = queryArray[j].split("/")
+    queryData = queryArray[j].split('/')
     queryAno = queryData[2].to_i
     
-    puts " o valor de query Ano #{queryAno}"
+    #puts " o valor de query Ano #{queryAno}"
+    if dataAno > queryAno
+      puts dataArray[i]
+      break
+    end
 
-    j+=1
+
+    i+=1
   end
   
-  i+=1
+  j+=1
 end
 
 
