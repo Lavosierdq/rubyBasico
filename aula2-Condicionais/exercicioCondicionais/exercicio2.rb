@@ -44,4 +44,21 @@ case  a
     puts " valor não encontrado"
 end
 puts '---' * 10
-puts (a==3)?'igual a 3':'diferente de 3'
+if a == 3 then puts " o valor de a #{a}" else puts " o valor de a #{a}" end
+
+puts '---' * 10
+unless a == 3; puts " o valor de a #{a}";end
+
+case a
+  when 3
+    puts " o valor de 'a'é igual a 3 "
+  when 4
+    puts "o valor de 'a' é igual a 50"
+  when 50
+    puts "o valor de 'a' é igual a 70"
+  else
+    puts " não tem valor agregado a variavel A"
+end
+
+
+
