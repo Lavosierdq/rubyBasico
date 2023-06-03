@@ -58,4 +58,18 @@ puts '---' * 10
 #Singulize e Pluralize -> retorna uma string pluralize ou singularize
 #puts "Gym/Member".pluralize
 #puts "Gym/Members".singularize
+#Tipos de retorno
+#to_s retorna uma string
+b = 789828
+puts b.to_s
+puts '---' * 10
+#to_i retorna um inteiro do objeto
+puts b.to_i
+puts '---' * 10
+#to_f retona um float do objeito
+puts b.to_f
+puts '---' * 10
+#to_sym retorna um simbolo do objeto
+#puts b.to_sym
+
 
