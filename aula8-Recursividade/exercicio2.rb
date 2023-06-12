@@ -9,11 +9,13 @@ require 'byebug'
 debugger
 def conta_digito(num)
   contador  = 0
-  if (num != 0)
-    contador = cont +1
-    conta_digito(num/10)
+  if num  == 0
+    return contador
   end
- return contador
+  if (num != 0)
+    contador = contador +1
+   num =  num/conta_digito(num /10)
+  end
 end
 
 num = 250
