@@ -1,6 +1,6 @@
 #crie um metodo construtor em ruby que determina
 class Pessoa
-  def initialize(nome,sobrenome,local)
+  def initialize(nome,sobrenome, local)
     @nome = nome
     @sobrenome = sobrenome
     @local = local
