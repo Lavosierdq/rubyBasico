@@ -20,8 +20,8 @@ end
 
 
 livro = Livro.new
-livro.nome = 'Senhor dos aneis'
+livro.nome = 'senhor dos aneis'
 livro.autor = 'token'
 
 puts " o nome do livro #{livro.nome}"
-p
+puts "nome do autor #{livro.autor}"
