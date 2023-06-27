@@ -4,24 +4,29 @@ no array. Por exemplo, para o array ["a", "b", "a", "c", "b", "a"], o resultado
 seria {"a" => 3, "b" => 2, "c" => 1}.
 =end
 
-require 'byebug'
-#debugger
-
-
-def vetor_hash(vetor)
-
-
-
-
+def contar_ocorrencias(strings)
+  ocorrencias = hash.new(0)
+  strings.each do |string|
+    ocorrencias[string] += 1
+  end
+  return ocorrencias
 end
-vetor_hash = {lavosier: 'programador',graciara:'professora',adriano:'seguranca'}
-vetor = ['a','b','a','c','b','a']
-i = 0
-valor_chave =""
-valor_atributo = ""
-puts  'digite o valor da nova chave'
-valor_chave = gets.chomp.to_i
-puts 'digite o valor do atributo'
-valor_atributo = gets.chomp.to_i
-vetor_hash[valor_chave] = valor_atributo
-puts vetor_hash
+
+# exemplo de uso
+array_strings = ["a", "b", "a", "c", "b", "a"]
+resultado = contar_ocorrencias(array_strings)
+puts resultado
+
+def contar_ocorrencias(strings)
+  ocorrencias = { }
+  strings.each do |string|
+    
+    ocorrencias[string] += 1
+  end
+  return ocorrencias
+end
+
+# exemplo de uso
+array_strings = ["a", "b", "a", "c", "b", "a"]
+resultado = contar_ocorrencias(array_strings)
+puts resultado
