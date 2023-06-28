@@ -4,20 +4,15 @@
    array [1, 2, 3, 2, 1, 3, 1, 4], 
    o resultado seria {1 => 3, 2 => 2, 3 => 2, 4 => 1}.
 =end
-
-def contar_ocorrencias(vetor)
-  ocorrencia ={}
-  i = 0
-  while i < vetor.length-1
-    vetor.each do |chave|
-      if vetor[i] == chave
-      ocorrencia[chave] += 1
-      end
-    end
-    i+=1
+def contar_ocorrencias(numeros)
+  ocorrencias = Hash.new(0)
+  numeros.each do |numero|
+    ocorrencias[numero] += 1
   end
+  return ocorrencias
 end
 
-
-arrayNumeros  = [1,2,3,4,1,3,1,4]
-puts contar_ocorrencias(arrayNumeros)
+# Exemplo de uso
+array_numeros = [1, 2, 3, 2, 1, 3, 1, 4]
+resultado = contar_ocorrencias(array_numeros)
+puts resultado
