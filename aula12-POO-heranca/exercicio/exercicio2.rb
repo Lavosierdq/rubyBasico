@@ -7,34 +7,33 @@
 
 class Veiculo 
   
-  def initialize(nome,marca)
-    @nome = nome
-    @marca = marca
+  def initialize(nome = "fiat",marca = "palio")
+   @nome = nome
+   @marca = marca
   end
-
+  protected
   def acelerar
-    "o nome #{@nome} e a marca #{@marca}"
+    "#{@nome} #{@marca}"
   end
 
   def frear
-    "o noome #{@nome} e a marca #{@marca}"
+    "#{@nome} #{@marca}"
   end
 end
 
 class Carro < Veiculo
 
   def acelerar
-   print 'acelerar' 
-    super
+    puts 'acelerar o '+super
   end
 
   def frear
-    super
+    puts 'frear o '+super
   end
 end
 
 class Moto < Veiculo
-  def acelerar
+  def acelerar()
     print 'moto'
     super
   end
@@ -44,3 +43,7 @@ class Moto < Veiculo
     super
   end
 end
+
+carro = Carro.new
+carro.acelerar
+carro.frear

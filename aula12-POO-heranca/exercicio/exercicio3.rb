@@ -1,50 +1,41 @@
+=begin
+   Crie uma classe base chamada Veiculo que tenha atributos como marca e modelo,
+   além de métodos para acelerar e frear. Em seguida, crie classes derivadas 
+   como Carro e Moto que herdem da classe Veiculo e adicionem comportamentos 
+   específicos para cada tipo de veículo.
+=end
+
 class Veiculo
-  attr_accessor :marca, :modelo
+  
+  attr_accessor :nome,:marca
 
   protected
-
-  def acelerar
-    puts "#{@marca} #{@modelo}"
-    puts 'alguma coisa'
+  def printar
+    puts "ruby é tão simples que dificulta"
   end
 
-  def frear
-    puts "#{@marca} #{@modelo}"
-    puts 'outra coisa de frear'
-  end
 end
 
 class Carro < Veiculo
-  def acelerar
-    super
-  end
 
-  def frear
-    super
-  end
+   def nome_carro
+    puts "Nome: #{@nome}" 
+    puts "Marca: #{@marca}"
+
+   end
 end
 
 class Moto < Veiculo
-  def acelerar
-    print 'moto '
+  def nome_carro
     super
   end
 
   def frear
-    print 'moto '
+    print ' moto'
     super
   end
 end
-
-veiculo = Veiculo.new
-veiculo.marca = 'fiat'
-veiculo.modelo = 'palio'
-
 carro = Carro.new
-carro.acelerar
-carro.frear
-
-moto = Moto.new
-moto.acelerar
-moto.frear
-
+carro.nome = "Palio"
+carro.marca = "Fiat"
+carro.nome_carro
