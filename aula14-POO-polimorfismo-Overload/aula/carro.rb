@@ -4,8 +4,9 @@ class Carro
   end
   attr_accessor :nome,:porta,:painel,:roda
   attr_reader :pneu
+
   def mostrar(marca="marca padrao")
-    "Marca: #{marca} - Modelo:#{self.nome} - #{algo_mais_protected}"
+    "Marca: #{marca} - Modelo:#{self.nome} - #{algo_mais_protegido}"
   end
   private
   def algo_mais
