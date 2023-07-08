@@ -3,9 +3,9 @@ class Abstrata
     raise "classe não pode ser instanciado, somente herdada"
   end
   def teste1
-   raise "este é um teste 1"
+   raise "este é um teste 1 abstrato"
   end
-  def teste2
-    "este é o teste 2"
+  def teste3
+    "este é o teste 3 abstrato"
   end
 end
