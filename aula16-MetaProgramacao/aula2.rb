@@ -19,6 +19,7 @@ class Carro
     "de classe"
   end
 
+
 end
 
 def Carro.metodo_de_classe2
