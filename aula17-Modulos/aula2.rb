@@ -10,22 +10,24 @@ danilo = "teste"
 #def danilo.olha3
 #  "teste danilo"
 #end
-#defininando metaprogramação em instancia de classe
-class << danilo
+#definindo metaprogramação em instancia de classe
+class << danilo #instanciando na classe danilo
   def roda
     "opa"
   end
 
-  def danilo.olha1
+  def olha1
     "teste danilo"
   end
-  def danilo.olha2
+  def olha2
     "teste danilo"
   end
   
-  def danilo.olha3
+  def olha3
     "teste danilo"
   end
 
 
-end 
+end
+
+puts danilo.olha1
