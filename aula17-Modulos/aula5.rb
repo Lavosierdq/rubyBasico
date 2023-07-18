@@ -17,7 +17,8 @@ end
 #debugger
 puts Utilidades::CPF
 puts Utilidades::CNPJ
-valida = Utilidades::CPF.new
+#sinal de :: para acessar a classe dentro do modulo
+valida = Utilidades::CPF.new 
 valida2 = Utilidades::CNPJ.new
 
 puts valida.validar
