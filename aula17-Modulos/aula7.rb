@@ -14,7 +14,6 @@ end
 
 String.include Teste # incluindo dentro do objeto String
 String.extend Teste2 # incluindo dentro da instancia para a classe
-debugger
 
 puts 'saida'
 
