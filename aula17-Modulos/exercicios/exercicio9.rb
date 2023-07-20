@@ -1,19 +1,18 @@
-#utilizando modulo de forma direta
-module NumDoc 
-  class CPF
-    def validar_cpf
-      'validando cpf'
-    end
+#exercicio incluindo um modulo a uma classe de String
+module Teste
+  def teste_modulo
+    "testando modulo incluindo dentro de uma string"
   end
-  class CNPJ
-    def validar_cnpj
-      'validando cnpj'
-    end
+end
+module Teste2
+  def metodo_classe
+    'testando para metodo de classe'
   end
 end
 
-puts NumDoc::CPF
-puts NumDoc::CNPJ
+String.include Teste #instancia de objeto
+String.extend  Teste2 #instancia de classe
+lavo = ''
 
-validar = NumDoc::CPF.new
-validar2 = NumDoc::CNPJ.new
+puts lavo.teste_modulo 
+puts String.metodo_classe 

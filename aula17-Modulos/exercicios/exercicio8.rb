@@ -1,18 +1,19 @@
-#exercicio incluindo um modulo a uma classe de String
-module Teste
-  def teste_modulo
-    "testando modulo incluindo dentro de uma string"
+#utilizando modulo de forma direta
+module NumDoc 
+  class CPF
+    def validar_cpf
+      'validando cpf'
+    end
   end
-end
-module Teste2
-  def metodo_classe
-    'testando para metodo de classe'
+  class CNPJ
+    def validar_cnpj
+      'validando cnpj'
+    end
   end
 end
 
-String.include Teste #instancia de objeto
-String.extend  Teste2 #instancia de classe
-lavo = ''
+puts NumDoc::CPF
+puts NumDoc::CNPJ
 
-puts lavo.teste_modulo 
-puts String.metodo_classe 
+validar = NumDoc::CPF.new
+validar2 = NumDoc::CNPJ.new
