@@ -20,13 +20,13 @@ class Cambio
         #Aplicar os método do modulo Converter
         case option
           when 1
-            real_to_euro my_value
+            real_to_euro(my_value)
           when 2
-            real_to_dolar my_value
+            real_to_dolar (my_value)
           when 3
-            dolar_to_real my_value
+            dolar_to_real (my_value)
           when 4
-            euro_to_real my_value
+            euro_to_real (my_value)
           else
             puts '>Erro inesperado'
           end
