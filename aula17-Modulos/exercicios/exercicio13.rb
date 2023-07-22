@@ -7,17 +7,21 @@
 =end
 
 require 'byebug'
-
+module StringFormatter 
   def title_case(valor_string)
-    palavraF = " "
     valor_string.split.each do |valor|
       print " #{valor.capitalize}"
     end
     print "\n"
- #   return palavraF
   end
+end
+
+class Formatador
+  include StringFormatter
+end
+
 palavra  = 'esse é o tamanho da string'
-title_case(palavra)
+Formatador.new.title_case(palavra)
 
 =begin
    def title_case(valor_string)
@@ -31,5 +35,18 @@ end
 palavra = 'esse é o tamanho da string'
 title_case(palavra)
 
+=end
+
+=begin 
+   title_case(valor_string)
+  palavra_formatada = " "
+  valor_string.spli.each do |valor|
+    palavra_formatada += valor.lenght > 1? "#{valor.capitalize}" : "#{valor}"
+  end
+ puts palavra_formatada 
+end
+
+palavra= " essa é a string a ser formatada"
+title_case(palavra)
 =end
 
