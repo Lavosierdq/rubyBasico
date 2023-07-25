@@ -24,3 +24,9 @@ end
 c = teste3()
 puts c
 
+#passando um array de parametros
+def metodo (*bloco)
+  bloco
+end
+
+metodo(1,2,3,4,5)
