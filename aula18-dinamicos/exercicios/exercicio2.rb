@@ -13,7 +13,6 @@ products  = {
   "smartphone" =>{quantidade:5,preco:800},
   "tablet" =>{quantidade:2,preco:500}
 }
-
 products.each do |chave, valor|
   total = v.call(valor)
   puts " o valor do produto #{chave}, Preco Total #{total}"
