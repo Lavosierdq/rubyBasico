@@ -1,13 +1,14 @@
 #Definir Metodo em runtime
 
-class Teste
-  def self.definir(nome_metodo)
-    define_method(nome_metodo) do
-      puts "metodo em runtime"
-    end
-  end
+
+def definir_classe(classe)
+  classe  = classe.capitalize
+  eval("class #{classe} end")
+  classe = Object.const_get(classe)
 end
 
-Teste.definir("teste")
+vatorClasse = ['classe1','classe2']
 
-Teste.new.teste
+vetorClasse.each do |classe|
+  definir_classe(classe)
+end

@@ -1,15 +1,14 @@
 =begin
-   Defina metodo em runtime e de forma dinaminca
+   Defina metodo de classe em runtime e de forma dinaminca
 =end
-
 class Teste
-  def self.definir(nome_metodo)
-    define_method(nome_metodo) do
-      puts 'aqui e o nome do metodo'
+  def self.metodo(novo_metodo)
+    define_method(novo_metodo) do
+      puts 'metodo alterado aqui'
     end
   end
 end
 
-  Teste.definir("teste")
+Teste.metodo('teste')
+puts Teste.new.teste
 
-  Teste.new.teste

@@ -1,4 +1,4 @@
-#Definir varias classes dinamicamentes em runtime 
+#Defina um metodo dinamico para criar classes  utilizando metodo eval
 
 def definir_classe(classe)
   classe = classe.capitalize
@@ -6,8 +6,8 @@ def definir_classe(classe)
   classe = Object.const_get(classe)
 end
 
-#criando um array de classes
+vetorClasse = ['classe1','classe2']
 
-['Classe1','Classe2','Classe3'].each do |classe|
+vetorClasse.each do |classe|
   definir_classe(classe)
 end
