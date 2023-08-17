@@ -21,6 +21,6 @@ end
   end
 end
 
-puts Danilo.new.methods = Class.methods
-puts Sheila.new.methods = Class.methods
-puts Lana.new.methods   = Class.methods
+puts Danilo.new.class
+puts Sheila.new.class
+puts Lana.new.class
