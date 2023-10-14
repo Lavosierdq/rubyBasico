@@ -18,9 +18,9 @@ puts "11- #{(1..8).class}"
 #variavel simples
 a = 1
 #variavel de instancia
-@a= 2
+@a = 2
 #variavel de classe
-@@= 3 
+@@a = 3 
 #variavel global
 $a= 4
 #variavel constante
