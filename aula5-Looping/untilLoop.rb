@@ -1,14 +1,13 @@
-# Ruby program to illustrate 'until' loop
- 
-var = 1
- 
-# using until loop
-# here do is optional
-until var == 11 do
- 
-  # code to be executed
-  puts var * 10
-  var = var + 1
-   
-# here loop ends
+loop do
+     
+ puts "GeeksforGeeks"
+  
+ val = '7'
+  
+ # using boolean expressions
+ if val == '7'
+  break
+ end
+  
+# ending of ruby do..while loop 
 end
