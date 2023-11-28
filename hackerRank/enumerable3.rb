@@ -1,8 +1,9 @@
 def sum_terms(n)
   # your code here
     i = 1
-while i <= 
-  product = product * i
+    product = 0
+while i <= n 
+  product = product+n**2+1
 i = i+1
 end
 
@@ -13,6 +14,6 @@ end
 ==begin
 def sum_terms(n)
   # your code here
-  1.upto(n).inject(0) {|sun, n| sum + n**2 + 1}
+    (1..n).reduce(1){|sum, nn| sum + nn*nn + 1}
 end
 ==end
