@@ -22,14 +22,20 @@ def rot13(secret_messages)
    if (vetor[i].ord >=65 && vetor[i].ord <= 77) || (vetor[i].ord >= 97 && vetor[i].ord <= 109)
      palavraConvertida[i] = palavraConvertida[i]+13
      i+=1
+     next;
+   end
+
+   if (vetor[i].ord >=79 && vetor[i].ord <=90) || (vetor[i].ord >=110 && vetor[i].ord <=122)
+     palavraConvertida[i] = palavraConvertida[i] - 13
+     i+=1
      next
    end
 
-  i+=1
+   i+=1
   end
   puts palavraConvertida
 end
 
-palavra = 'MMMM'
+palavra = 'ynib'
 
 rot13(palavra)
