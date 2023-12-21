@@ -1,6 +1,7 @@
 def rot13(secret_messages)
   vetor = []
   palavraConvertida = []
+  result  = []
   vetor =  secret_messages.split('')
   #p vetor[4]
   i = 0
@@ -14,7 +15,7 @@ def rot13(secret_messages)
    end
 
    if vetor[i].ord == 33
-     palavraConvertida[i] = 66
+     palavraConvertida[i] = 63
      i+=1
      next
    end
@@ -33,9 +34,12 @@ def rot13(secret_messages)
 
    i+=1
   end
-  puts palavraConvertida
+  palavraConvertida.each do |x|
+    result << x.chr
+  end
+  puts result*""
 end
 
-palavra = 'ynib'
+palavra = '!lAvO'
 
 rot13(palavra)
