@@ -1,14 +1,24 @@
 class Livro
-  def initialize(autor,numero_pagina,isbn = '1')
+  def initialize(autor,isbn = '1',numero_pagina,preco)
     @autor = autor
     @isbn = isbn
     @numero_pagina = numero_pagina
-    puts "nome do autor #{autor}, numero de paginas #{numero_pagina}, ISBN #{isbn}"
+    @preco = preco
   end
+
+  #escrever método to_s 'to_string no java' é uma forma de esquever o metodo mais limpo e elegante
+
+    def to_s
+       "Nome do autor #{@autor}, numero de paginas #{@numero_pagina}, ISBN #{@isbn}"
+
+    end
+
+    def preco 
+      @preco
+    end
+
+    def preco=(preco)
+      @preco = preco
+    end
 end
 
-teste_e_design = Livro.new("Mauricio Aniche",246,"1234567")
-web_design_responsivo = Livro.new("Tarcio Zemel",189,"452565")
-
-p teste_e_design
-p web_design_responsivo
