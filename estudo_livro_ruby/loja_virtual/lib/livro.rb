@@ -1,15 +1,17 @@
 class Livro
   attr_accessor :preco
-  def initialize(autor,isbn = '1',numero_pagina,preco)
+  def initialize(autor,isbn = '1',numero_pagina,valor,categoria)
     @autor = autor
     @isbn = isbn
     @numero_pagina = numero_pagina
-    @preco = preco
+    @valor = valor
+    @categoria = categoria
   end
 
  #escrever método to_s 'to_string no java' é uma forma de esquever o metodo mais limpo e elegante
     def to_s
-       "Nome do autor #{@autor}, numero de paginas #{@numero_pagina}, ISBN #{@isbn}"
+       "Nome do autor #{@autor}, numero de paginas #{@numero_pagina}, ISBN #{@isbn}
+       Categoria #{@categoria}"
 
     end
 =begin
